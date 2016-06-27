@@ -26,21 +26,16 @@
         <developerConnection>https://github.com/rajavenkatesh/GameOfLife.git</developerConnection>
         <url>https://github.com/rajavenkatesh/GameOfLife.git</url>
     </scm>
-
-
 <distributionManagement>
-
-   <Repository>
+  <repository>
       <id>nexus-releases</id>
       <url>http://localhost:8081/nexus/content/repositories/releases</url>
-   </Repository>
-
+   </repository>
    <snapshotRepository>
       <id>nexus-snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
    </snapshotRepository>
 </distributionManagement>
-
     <build>
         <plugins>
 <!--
