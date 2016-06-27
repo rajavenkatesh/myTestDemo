@@ -38,7 +38,6 @@
    </snapshotRepository>
 </distributionManagement>
     <build> -->
-
 <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
@@ -49,26 +48,7 @@
     <url>http://localhost:8081/nexus/content/repositories/releases</url>
   </repository>
 </distributionManagement>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <plugins> 
-
-
-
 <!--
 <plugin>
    <artifactId>maven-deploy-plugin</artifactId>
@@ -107,8 +87,6 @@
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
-
-
 -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
