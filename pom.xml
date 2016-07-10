@@ -449,7 +449,7 @@
                                 <groupId>com.wakaleo.gameoflife</groupId>
                                 <artifactId>gameoflife-build</artifactId>
                                 <version>${project.version}</version>
-                            </dependency>
+                            </dependency> -->
                         </dependencies>
                     </plugin>
                 </plugins>
@@ -531,3 +531,4 @@
         </profile>
     </profiles>
 </project>
+
